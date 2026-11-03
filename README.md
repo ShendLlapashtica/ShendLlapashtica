@@ -22,6 +22,18 @@ and then proving the result still holds under real traffic.
 - **Keeping secrets out of what ships.** Bundles, commits, and now the output of
   coding agents.
 
+### What I run
+
+**[Encar API](https://encar-api.com)** — live Korean used-car listings as JSON.
+A catalogue nobody normalised: names in Korean with no English on the
+generation record, prices filed in units of 10,000 KRW, model years written
+`YYYYMM`. Dealers and importers in Europe license it to source and price cars
+from Korea without building that pipeline themselves. Three in ten listings in
+that market are the same car advertised twice, and most of the work is proving
+which three: the duplicate carries its own ad id but the original's photos, so
+the image path names the other advertisement.
+Documentation: [encar-api.com/docs](https://encar-api.com/docs).
+
 ### Open source
 
 | | |
